@@ -11,3 +11,6 @@
 ## basic-03-rememberMe
 - 기억하기 인증 – rememberMe()
 - 기억하기 인증 필터 - RememberMeAuthenticationFilter
+
+## basic-04-anonymous
+- 익명 인증 사용자 – anonymous()
