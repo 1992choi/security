@@ -7,3 +7,7 @@
 ## basic-02-httpBasic
 - 기본 인증 – httpBasic()
 - 기본 인증 필터 - BasicAuthenticationFilter
+
+## basic-03-rememberMe
+- 기억하기 인증 – rememberMe()
+- 기억하기 인증 필터 - RememberMeAuthenticationFilter
