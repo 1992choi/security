@@ -1,5 +1,6 @@
 package io.security.springsecuritymaster;
 
+import org.apache.tomcat.util.net.openssl.ciphers.Authentication;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -7,8 +8,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class IndexController {
 
     @GetMapping("/")
-    public String index() {
-        return "index";
+    public Authentication index(Authentication authentication) {
+        return authentication;
     }
 
 }
