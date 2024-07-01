@@ -14,3 +14,7 @@
 
 ## basic-04-anonymous
 - 익명 인증 사용자 – anonymous()
+
+## basic-05-logout
+- 로그 아웃 – logout() -1
+- 로그 아웃 – logout() -2
