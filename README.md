@@ -21,3 +21,7 @@
 
 ## basic-06-cache
 - 요청 캐시 RequestCache / SavedRequest
+
+## basic-07-securityContext
+- 인증 컨텍스트 - SecurityContext / SecurityContextHolder -1
+- 인증 컨텍스트 - SecurityContext / SecurityContextHolder -2
