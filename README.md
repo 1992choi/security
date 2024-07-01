@@ -18,3 +18,6 @@
 ## basic-05-logout
 - 로그 아웃 – logout() -1
 - 로그 아웃 – logout() -2
+
+## basic-06-cache
+- 요청 캐시 RequestCache / SavedRequest
