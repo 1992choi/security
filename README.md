@@ -36,3 +36,6 @@
 
 ## basic-10-userDetailsService
 - 사용자 상세 서비스 - UserDetailsService
+
+## basic-11-userDetails
+- 사용자 상세 - UserDetails
