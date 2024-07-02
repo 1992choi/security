@@ -16,16 +16,20 @@
 - 익명 인증 사용자 – anonymous()
 
 ## basic-05-logout
-- 로그 아웃 – logout() -1
-- 로그 아웃 – logout() -2
+- 로그 아웃 – logout() - 1
+- 로그 아웃 – logout() - 2
 
 ## basic-06-cache
 - 요청 캐시 RequestCache / SavedRequest
 
 ## basic-07-securityContext
-- 인증 컨텍스트 - SecurityContext / SecurityContextHolder -1
-- 인증 컨텍스트 - SecurityContext / SecurityContextHolder -2
+- 인증 컨텍스트 - SecurityContext / SecurityContextHolder - 1
+- 인증 컨텍스트 - SecurityContext / SecurityContextHolder - 2
 
 ## basic-08-authenticationManager
 - 인증 관리자 - AuthenticationManager - 1
 - 인증 관리자 - AuthenticationManager - 2
+
+## basic-09-authenticationProvider
+- 인증 제공자 - AuthenticationProvider - 1
+- 인증 제공자 - AuthenticationProvider - 2 
