@@ -32,4 +32,7 @@
 
 ## basic-09-authenticationProvider
 - 인증 제공자 - AuthenticationProvider - 1
-- 인증 제공자 - AuthenticationProvider - 2 
+- 인증 제공자 - AuthenticationProvider - 2
+
+## basic-10-userDetailsService
+- 사용자 상세 서비스 - UserDetailsService
