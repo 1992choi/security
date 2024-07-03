@@ -47,3 +47,6 @@
 
 ## basic-13-springMVC
 - 스프링 MVC 로그인 구현
+
+## basic-14-maximumSessions
+- 동시 세션 제어 - sessionManagement().maximumSessions()
