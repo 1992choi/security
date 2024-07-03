@@ -50,3 +50,6 @@
 
 ## basic-14-maximumSessions
 - 동시 세션 제어 - sessionManagement().maximumSessions()
+
+## basic-15-sessionFixation
+- 세션 고정 보호 - sessionManagement().sessionFixation()
