@@ -1,0 +1,16 @@
+### Send POST request with json body
+POST http://localhost:8080/login
+Content-Type: application/json
+
+{
+  "username": "user",
+  "password": "1111"
+}
+
+> {%
+    client.global.set("JSESSIONID", response.headers.valueOf("Set-Cookie").split(";")[0].split("=")[1])
+%}
+
+### Send GET request
+GET http://localhost:8080
+Cookie: JSESSIONID={{JSESSIONID}}
