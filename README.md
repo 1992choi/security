@@ -53,3 +53,6 @@
 
 ## basic-15-sessionFixation
 - 세션 고정 보호 - sessionManagement().sessionFixation()
+
+## basic-16-sessionCreationPolicy
+- 세션 생성 정책 - sessionManagement().sessionCreationPolicy()
