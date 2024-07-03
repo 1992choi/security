@@ -11,4 +11,14 @@ public class IndexController {
         return "index";
     }
 
+    @GetMapping("/invalidSessionUrl")
+    public String invalidSessionUrl() {
+        return "invalidSessionUrl";
+    }
+
+    @GetMapping("/expired")
+    public String expired() {
+        return "expired";
+    }
+
 }
