@@ -64,3 +64,7 @@
 ## basic-18-exceptionHandling
 - 예외 처리 - exceptionHandling()
 - 예외 필터 - ExceptionTranslationFilter
+
+## basic-19-cors
+- CORS (Cross Origin Resource Sharing) - 1
+- CORS (Cross Origin Resource Sharing) - 2
