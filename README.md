@@ -60,3 +60,7 @@
 ## basic-17-sessionManagementFilter
 - SessionManagementFilter / ConcurrentSessionFilter - 1
 - SessionManagementFilter / ConcurrentSessionFilter - 2
+
+## basic-18-exceptionHandling
+- 예외 처리 - exceptionHandling()
+- 예외 필터 - ExceptionTranslationFilter
