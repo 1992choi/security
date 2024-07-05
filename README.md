@@ -68,3 +68,6 @@
 ## basic-19-cors
 - CORS (Cross Origin Resource Sharing) - 1
 - CORS (Cross Origin Resource Sharing) - 2
+
+## basic-20-csrf
+- CSRF (Cross Site Request Forgery)
