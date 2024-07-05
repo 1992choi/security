@@ -1,0 +1,9 @@
+### POST request with a header
+POST http://localhost:8080/csrf
+Content-Type: application/json
+
+### POST request with a header
+POST http://localhost:8080/csrf
+Content-Type: application/x-www-form-urlencoded
+
+_csrf = 86mUl0VVId3-SbXdMmbaYhfZyZAGn8qlRsvBKuU_EZMIY0SskJ729XYwGb_TL9buC0vuBi6_5PJn_vmIdfv1GdENcKVrWyfI
