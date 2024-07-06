@@ -82,3 +82,7 @@
 
 ## basic-23-sameSite
 - SameSite
+
+## basic-24-authorizeHttpRequests
+- 요청 기반 권한 부여 - HttpSecurity.authorizeHttpRequests() - 1
+- 요청 기반 권한 부여 - HttpSecurity.authorizeHttpRequests() - 2
