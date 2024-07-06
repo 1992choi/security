@@ -11,4 +11,14 @@ public class IndexController {
         return "index";
     }
 
+    @GetMapping("/api/photos")
+    public String photos(){
+        return "photos";
+    }
+
+    @GetMapping("/oauth/login")
+    public String oauth(){
+        return "oauthLogin";
+    }
+
 }
