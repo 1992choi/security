@@ -98,3 +98,6 @@
 
 ## basic-28-PreFilter&PostFilter
 - 메서드 기반 권한 부여 - @PreFilter, @PostFilter
+
+## basic-29-Secured&JSR-250
+- 메서드 기반 권한 부여 - @Secured, JSR-250 및 부가 기능
