@@ -101,3 +101,6 @@
 
 ## basic-29-Secured&JSR-250
 - 메서드 기반 권한 부여 - @Secured, JSR-250 및 부가 기능
+
+## basic-30-staticResource
+- 정적 자원 관리
