@@ -92,3 +92,6 @@
 
 ## basic-26-securityMatcher
 - 요청 기반 권한 부여 - HttpSecurity.securityMatcher()
+
+## basic-27-PreAuthorize&PostAuthorize
+- 메서드 기반 권한 부여 - @PreAuthorize, @PostAuthorize
