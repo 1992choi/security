@@ -117,3 +117,6 @@
 
 ## basic-34-customAuthorizationManager
 - 요청 기반 Custom AuthorizationManager 구현
+
+## basic-35-requestMatcherDelegatingAuthorizationManager
+- RequestMatcherDelegatingAuthorizationManager 로 인가 설정 응용하기
