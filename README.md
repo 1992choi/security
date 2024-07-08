@@ -110,3 +110,7 @@
 
 ## basic-32-authorization
 - 인가 – Authorization
+
+## basic-33-authorityAuthorizationManager
+- 요청 기반 인가 관리자 - AuthorityAuthorizationManager 외 클래스 구조 이해 - 1
+- 요청 기반 인가 관리자 - AuthorityAuthorizationManager 외 클래스 구조 이해 - 2
