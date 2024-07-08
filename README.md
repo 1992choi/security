@@ -107,3 +107,6 @@
 
 ## basic-31-hierarchy
 - 계층적 권한 - RoleHierarchy
+
+## basic-32-authorization
+- 인가 – Authorization
