@@ -105,5 +105,5 @@
 ## basic-30-staticResource
 - 정적 자원 관리
 
-## basic-31-hirerachy
-- 계층적 권한 - RoleHirerachy
+## basic-31-hierarchy
+- 계층적 권한 - RoleHierarchy
