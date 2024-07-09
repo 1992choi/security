@@ -124,3 +124,6 @@
 ## basic-36-methodAuthorization
 - 메서드 기반 인가 관리자 - PreAuthorizeAuthorizationManager 외 클래스 구조 이해 - 1
 - 메서드 기반 인가 관리자 - PreAuthorizeAuthorizationManager 외 클래스 구조 이해 - 2
+
+## basic-37-customAuthorizationManager
+- 메서드 기반 Custom AuthorizationManager 구현
