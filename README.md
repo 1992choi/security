@@ -119,4 +119,8 @@
 - 요청 기반 Custom AuthorizationManager 구현
 
 ## basic-35-requestMatcherDelegatingAuthorizationManager
-- RequestMatcherDelegatingAuthorizationManager 로 인가 설정 응용하기
+- RequestMatcherDelegatingAuthorizationManager로 인가 설정 응용하기
+
+## basic-36-methodAuthorization
+- 메서드 기반 인가 관리자 - PreAuthorizeAuthorizationManager 외 클래스 구조 이해 - 1
+- 메서드 기반 인가 관리자 - PreAuthorizeAuthorizationManager 외 클래스 구조 이해 - 2
