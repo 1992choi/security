@@ -127,3 +127,6 @@
 
 ## basic-37-customAuthorizationManager
 - 메서드 기반 Custom AuthorizationManager 구현
+
+## basic-38-pointcut
+- 포인트 컷 메서드 보안 구현하기 - AspectJExpressionPointcut / ComposablePointcut
