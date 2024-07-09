@@ -1,14 +1,33 @@
 package io.security.springsecuritymaster;
 
+import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
+@RequiredArgsConstructor
 public class IndexController {
 
-    @GetMapping("/")
-    public String index() {
-        return "index";
+    private final DataService dataService;
+
+    @GetMapping("/user")
+    public String user() {
+        return dataService.getUser();
+    }
+
+    @GetMapping("/admin")
+    public String admin() {
+        return dataService.getAdmin();
+    }
+
+    @GetMapping("/owner")
+    public Account owner(String name) {
+        return dataService.getOwner(name);
+    }
+
+    @GetMapping("/display")
+    public String display() {
+        return dataService.display();
     }
 
 }
