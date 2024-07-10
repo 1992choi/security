@@ -139,3 +139,6 @@
 
 ## basic-41-authenticationEventPublisher
 - 인증 이벤트 - AuthenticationEventPublisher 활용
+
+## basic-42-authorizationEvents
+- 인가 이벤트 - Authorization Events
