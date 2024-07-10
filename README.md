@@ -133,3 +133,6 @@
 
 ## basic-39-aop
 - AOP 메서드 보안 구현하기 - MethodInterceptor, Pointcut, Advisor
+
+## basic-40-authenticationEvents
+- 인증 이벤트 - Authentication Events
