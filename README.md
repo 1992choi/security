@@ -151,3 +151,6 @@
 
 ## basic-45-webAsyncManagerIntegrationFilter
 - Spring MVC 비동기 통합 - WebAsyncManagerIntegrationFilter
+
+## basic-46-multiHttpSecurity
+- 다중 보안 설정
