@@ -148,3 +148,6 @@
 
 ## basic-44-authenticationPrincipal
 - Spring MVC 통합 - @AuthenticationPrincipal
+
+## basic-45-webAsyncManagerIntegrationFilter
+- Spring MVC 비동기 통합 - WebAsyncManagerIntegrationFilter
