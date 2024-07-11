@@ -157,3 +157,6 @@
 
 ## basic-47-customDSLs
 - Custom DSLs - HttpSecurity.with(AbstractHttpConfigurer)
+
+## basic-48-redis
+- Redis 를 활용한 이중화 설정 - @EnableRedisHttpSession
