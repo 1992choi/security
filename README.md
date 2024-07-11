@@ -145,3 +145,6 @@
 
 ## basic-43-securityContextHolderAwareRequestFilter
 - Servlet API 통합 - SecurityContextHolderAwareRequestFilter
+
+## basic-44-authenticationPrincipal
+- Spring MVC 통합 - @AuthenticationPrincipal
