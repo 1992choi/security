@@ -154,3 +154,6 @@
 
 ## basic-46-multiHttpSecurity
 - 다중 보안 설정
+
+## basic-47-customDSLs
+- Custom DSLs - HttpSecurity.with(AbstractHttpConfigurer)
