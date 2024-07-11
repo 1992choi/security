@@ -142,3 +142,6 @@
 
 ## basic-42-authorizationEvents
 - 인가 이벤트 - Authorization Events
+
+## basic-43-securityContextHolderAwareRequestFilter
+- Servlet API 통합 - SecurityContextHolderAwareRequestFilter
