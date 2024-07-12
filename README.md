@@ -182,3 +182,6 @@
   - psql -U [username]
 - DB 생성
   - create database [name];
+- DB 선택
+  - \c [name] 
+  - Ex) \c postgres
