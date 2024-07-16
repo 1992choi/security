@@ -28,11 +28,18 @@ public class CustomDynamicAuthorizationManager implements AuthorizationManager<R
     List<RequestMatcherEntry<AuthorizationManager<RequestAuthorizationContext>>> mappings;
     private static final AuthorizationDecision ACCESS = new AuthorizationDecision(true);
     private final HandlerMappingIntrospector handlerMappingIntrospector;
-    private final ResourcesRepository repository;
+    private final ResourcesRepository resourcesRepository;
+    private DynamicAuthorizationService dynamicAuthorizationService;
 
     @PostConstruct
     public void mapping() {
-        DynamicAuthorizationService dynamicAuthorizationService = new DynamicAuthorizationService(new PersistentUrlRoleMapper(repository));
+        dynamicAuthorizationService =
+                new DynamicAuthorizationService(new PersistentUrlRoleMapper(resourcesRepository));
+
+        setMapping();
+    }
+
+    public void setMapping() {
         mappings = dynamicAuthorizationService.getUrlRoleMappings()
                 .entrySet().stream()
                 .map(entry -> new RequestMatcherEntry<>(
@@ -44,6 +51,7 @@ public class CustomDynamicAuthorizationManager implements AuthorizationManager<R
     @Override
     public AuthorizationDecision check(Supplier<Authentication> authentication, RequestAuthorizationContext request) {
         for (RequestMatcherEntry<AuthorizationManager<RequestAuthorizationContext>> mapping : this.mappings) {
+
             RequestMatcher matcher = mapping.getRequestMatcher();
             RequestMatcher.MatchResult matchResult = matcher.matcher(request.getRequest());
 
@@ -53,7 +61,6 @@ public class CustomDynamicAuthorizationManager implements AuthorizationManager<R
                         new RequestAuthorizationContext(request.getRequest(), matchResult.getVariables()));
             }
         }
-
         return ACCESS;
     }
 
@@ -70,4 +77,8 @@ public class CustomDynamicAuthorizationManager implements AuthorizationManager<R
         }
     }
 
+    public synchronized void reload() {
+        mappings.clear();
+        setMapping();
+    }
 }
